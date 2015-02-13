@@ -31,6 +31,9 @@ casks=(
   istat-menus
   iterm2
   omnidisksweeper
+  pgadmin3
+  robomongo
+  sequel-pro
   spotify
   steam
   sublime-text
