@@ -1,6 +1,16 @@
 export PATH
 PATH=~/.nave/installed/default/bin:"$(path_remove ~/.nave/installed/*/bin)"
 
+# Global npm modules to install.
+npm_globals=(
+  grunt-cli 
+  grunt-init 
+  linken bower 
+  node-inspector
+  ungit 
+  yo
+)
+
 # Set a specific version of node as the "default" for "nave use default"
 function nave_default() {
   local version
@@ -23,9 +33,6 @@ function nave_install() {
   fi
   [[ "$1" == "stable" ]] && nave_default stable && npm_install
 }
-
-# Global npm modules to install.
-npm_globals=(grunt-cli grunt-init linken bower node-inspector yo)
 
 # Update npm and install global modules.
 function npm_install() {
