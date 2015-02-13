@@ -20,6 +20,7 @@ brew cask info this-is-somewhat-annoying 2>/dev/null
 casks=(
   # Applications
   a-better-finder-rename
+  caskroom/versions/java7
   chromium
   dropbox
   firefox
