@@ -13,6 +13,7 @@ recipes=(
   git
   git-extras
   nmap
+  sbt
   sl
   terminal-notifier
   the_silver_searcher
