@@ -26,6 +26,7 @@ casks=(
   firefox
   google-chrome
   gyazo
+  hipchat
   intellij-idea-ce
   istat-menus
   iterm2
