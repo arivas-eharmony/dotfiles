@@ -18,6 +18,7 @@ recipes=(
   terminal-notifier
   the_silver_searcher
   tree
+  typesafe-activator
 )
 
 brew_install_recipes
