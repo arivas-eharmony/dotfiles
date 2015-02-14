@@ -41,6 +41,7 @@ casks=(
   totalfinder
   tower
   transmission-remote-gui
+  tunnelblick
   vagrant
   virtualbox
   vlc
