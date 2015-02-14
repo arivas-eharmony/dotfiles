@@ -3,11 +3,12 @@ PATH=~/.nave/installed/default/bin:"$(path_remove ~/.nave/installed/*/bin)"
 
 # Global npm modules to install.
 npm_globals=(
-  grunt-cli 
-  grunt-init 
-  linken bower 
+  ember-cli
+  grunt-cli
+  grunt-init
+  linken bower
   node-inspector
-  ungit 
+  ungit
   yo
 )
 
