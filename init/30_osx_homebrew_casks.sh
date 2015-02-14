@@ -20,7 +20,6 @@ brew cask info this-is-somewhat-annoying 2>/dev/null
 casks=(
   # Applications
   a-better-finder-rename
-  caskroom/versions/java7
   chromium
   dropbox
   firefox
@@ -30,6 +29,7 @@ casks=(
   intellij-idea-ce
   istat-menus
   iterm2
+  java7
   omnidisksweeper
   pgadmin3
   robomongo
