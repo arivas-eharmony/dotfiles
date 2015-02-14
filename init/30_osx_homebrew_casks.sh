@@ -30,7 +30,6 @@ casks=(
   istat-menus
   iterm2
   java7
-  nitrous-desktop
   omnidisksweeper
   pgadmin3
   robomongo
