@@ -37,7 +37,6 @@ casks=(
   spotify
   steam
   sublime-text
-  scala-ide
   the-unarchiver
   totalfinder
   tower
