@@ -34,6 +34,7 @@ casks=(
   pgadmin3
   robomongo
   sequel-pro
+  sketch
   spotify
   steam
   sublime-text
