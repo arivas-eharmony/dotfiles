@@ -30,6 +30,7 @@ casks=(
   istat-menus
   iterm2
   java7
+  ksdiff
   omnidisksweeper
   pgadmin3
   robomongo
