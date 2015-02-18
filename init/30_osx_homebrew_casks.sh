@@ -44,7 +44,6 @@ casks=(
   tower
   transmission-remote-gui
   tunnelblick
-  vagrant
   virtualbox
   vlc
   webstorm
