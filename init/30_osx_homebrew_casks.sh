@@ -37,6 +37,7 @@ casks=(
   sequel-pro
   sketch
   spotify
+  spectacle
   steam
   sublime-text
   the-unarchiver
