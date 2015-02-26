@@ -8,7 +8,8 @@ npm_globals=(
   grunt-init
   linken bower
   node-inspector
-  swiffy-convert
+  phantomjs
+  svgo
   ungit
   yo
 )
