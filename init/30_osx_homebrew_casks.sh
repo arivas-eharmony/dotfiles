@@ -36,6 +36,7 @@ casks=(
   robomongo
   sequel-pro
   sketch
+  slack
   spotify
   spectacle
   steam
