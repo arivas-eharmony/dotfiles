@@ -1,3 +1,6 @@
+# OS Files
+.DS_Store
+
 # Lots of junk goes in here.
 /caches/
 /backups/
