@@ -1,0 +1,413 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"produc",
+				"productPrefix"
+			],
+			[
+				"re",
+				"redirectRoute"
+			],
+			[
+				"transition",
+				"transitionTo"
+			],
+			[
+				"product",
+				"productClaim"
+			],
+			[
+				"claimab",
+				"claimableMessage"
+			],
+			[
+				"has",
+				"hasPurchasedProductForBrand"
+			],
+			[
+				"hasRece",
+				"hasReceivedProductForBrand"
+			],
+			[
+				"claimHeader",
+				"claimHeaderSubtitleLine1"
+			],
+			[
+				"replace",
+				"replacementBoogiesProduct"
+			],
+			[
+				"Re",
+				"RequiresFullLogin"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"selected_items":
+		[
+			[
+				"clone",
+				"Origami: Clone File to Pane on the Right"
+			],
+			[
+				"ori ri",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"des",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ssrub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ssruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/arivas/workspace/apps/rails-site/main-site/Gemfile",
+		"/Users/arivas/workspace/apps/face-web/app/models/product-claim.js",
+		"/Users/arivas/workspace/apps/face-web/app/routes/claim/shipping.js",
+		"/Users/arivas/workspace/apps/face-web/app/mixins/redirects-ineligible-claimant.js",
+		"/Users/arivas/workspace/apps/face-web/app/routes/claim.js",
+		"/Users/arivas/workspace/apps/face-web/app/models/policy.js",
+		"/Users/arivas/workspace/apps/face-web/app/mixins/sets-active-brand.js",
+		"/Users/arivas/workspace/apps/face-web/app/mixins/logs-in-users.js",
+		"/Users/arivas/workspace/apps/face-web/app/mixins/retries-action.js",
+		"/Users/arivas/workspace/apps/face-web/app/routes/application.js",
+		"/Users/arivas/workspace/apps/face-web/app/routes/claim/file.js",
+		"/Users/arivas/workspace/apps/face-web/app/routes/claim/index.js",
+		"/Users/arivas/workspace/apps/face-web/app/routes/claim/complete.js",
+		"/Users/arivas/workspace/apps/face-web/app/templates/claim/file.hbs",
+		"/Users/arivas/workspace/apps/face-web/app/mixins/redirects-ineligible-claimant-user.js",
+		"/Users/arivas/workspace/apps/face-web/app/routes/brand.js",
+		"/Users/arivas/workspace/apps/face-web/app/routes/product.js",
+		"/Users/arivas/workspace/apps/face-web/app/routes/brand/index.js",
+		"/Users/arivas/workspace/apps/face-web/tests/index.html",
+		"/Users/arivas/workspace/apps/face-web/Brocfile.js",
+		"/Users/arivas/workspace/apps/face-web/config/hosts.js",
+		"/Users/arivas/workspace/apps/face-web/package.json",
+		"/Users/arivas/workspace/apps/face-web/config/environment.js",
+		"/Users/arivas/workspace/apps/face-web/tests/unit/mixins/handles-route-errors-test.js",
+		"/Users/arivas/workspace/apps/face-web/app/index.html",
+		"/Users/arivas/workspace/apps/face-web/bower.json",
+		"/Users/arivas/workspace/apps/face-web/app/views/modal.js",
+		"/Users/arivas/workspace/apps/face-web/app/views/link.js",
+		"/Users/arivas/workspace/apps/face-web/app/mixins/sets-meta-prerender-status-code.js",
+		"/Users/arivas/workspace/apps/face-web/app/mixins/sets-meta-noindex.js",
+		"/Users/arivas/workspace/apps/face-web/app/mixins/requires-full-login.js",
+		"/Users/arivas/workspace/apps/face-web/app/mixins/displays-modal.js",
+		"/Users/arivas/workspace/apps/face-web/app/controllers/modal/forgot-password.js",
+		"/Users/arivas/workspace/apps/face-web/app/controllers/modal/edit-extra.js",
+		"/Users/arivas/workspace/apps/face-web/app/controllers/claim/index.js",
+		"/Users/arivas/workspace/apps/face-web/app/components/store-vertical.js",
+		"/Users/arivas/workspace/apps/face-web/app/components/friendbuy-widget.js",
+		"/Users/arivas/workspace/apps/test-app/package.json",
+		"/Users/arivas/workspace/apps/face-web/tests/unit/mixins/creates-account-test.js",
+		"/Users/arivas/workspace/apps/face-web/tests/unit/mixins/cookieless-rest-adapter-test.js",
+		"/Users/arivas/workspace/apps/face-web/tests/helpers/start-app.js",
+		"/Users/arivas/workspace/apps/face-web/app/styles/modules/store/_store-brand.sass",
+		"/Users/arivas/workspace/apps/face-web/app/styles/modules/store/_store-brand-product.sass",
+		"/Users/arivas/workspace/apps/face-web/.git/MERGE_MSG",
+		"/Users/arivas/workspace/apps/rails-site/.gitignore",
+		"/Users/arivas/workspace/apps/face-web/app/routes/checkout.js",
+		"/Users/arivas/workspace/apps/face-web/app/components/livechat-launcher.js",
+		"/Users/arivas/workspace/apps/face-web/app/styles/modules/components/_livechat-launcher.sass",
+		"/Users/arivas/workspace/apps/face-web/app/templates/claim/index.hbs",
+		"/Users/arivas/workspace/apps/face-web/app/templates/claim/form.hbs",
+		"/Users/arivas/workspace/apps/face-web/app/controllers/claim/file.js",
+		"/Users/arivas/workspace/apps/face-web/app/controllers/claim/shipping.js",
+		"/Users/arivas/workspace/apps/face-web/app/mixins/sets-livechat-subject.js",
+		"/Users/arivas/workspace/apps/face-web/app/controllers/claim/complete.js",
+		"/Users/arivas/workspace/apps/face-web/app/templates/claim/shipping.hbs",
+		"/Users/arivas/workspace/apps/face-web/app/templates/claim/complete.hbs",
+		"/Users/arivas/workspace/apps/face-web/app/templates/components/edit-shipping.hbs",
+		"/Users/arivas/workspace/apps/face-web/app/templates/forms/address.hbs",
+		"/Users/arivas/workspace/apps/face-web/app/components/edit-shipping.js",
+		"/Users/arivas/workspace/apps/face-web/app/styles/modules/page/_claim.sass",
+		"/Users/arivas/workspace/apps/face-web/app/styles/modules/page/_claim-shipping.sass",
+		"/Users/arivas/workspace/apps/face-web/app/styles/modules/page/_claim-index.sass",
+		"/Users/arivas/workspace/apps/face-web/app/controllers/claim.js",
+		"/Users/arivas/workspace/apps/face-web/app/mixins/sets-page-title.js",
+		"/Users/arivas/workspace/apps/face-web/app/controllers/application.js",
+		"/Users/arivas/workspace/apps/face-web/app/models/product.js",
+		"/Users/arivas/workspace/apps/face-web/app/models/eligible-order-product.js",
+		"/Users/arivas/workspace/apps/face-web/app/models/brand.js",
+		"/Users/arivas/workspace/apps/face-web/app/mixins/handles-route-errors.js",
+		"/Users/arivas/workspace/apps/face-web/app/models/action-create-session.js",
+		"/Users/arivas/workspace/apps/face-web/app/models/action-create-subscription.js",
+		"/Users/arivas/workspace/apps/face-web/app/models/address.js",
+		"/Users/arivas/workspace/apps/face-web/app/models/action-change-email.js",
+		"/Users/arivas/workspace/apps/rails-site/engine/app/models/dsc/models/summary/product_summary.rb",
+		"/Users/arivas/Desktop/rs_exit-funnel.js",
+		"/Users/arivas/Desktop/rs_checkout-extras.js",
+		"/Users/arivas/Desktop/rs_checkout-blades.js",
+		"/Users/arivas/workspace/apps/face-web/config/hosts.json",
+		"/Users/arivas/workspace/apps/swiffy-test/package.json",
+		"/Users/arivas/workspace/packages/broccoli-swiffy-convert/.gitignore",
+		"/Users/arivas/workspace/packages/broccoli-swiffy-convert/.travis.yml",
+		"/Users/arivas/workspace/packages/broccoli-swiffy-convert/LICENSE",
+		"/Users/arivas/workspace/apps/rails-site/cms-api-engine/app/models/dsc/cms/models/brand_description/description.rb",
+		"/Users/arivas/.dotfiles/conf/sublime",
+		"/Users/arivas/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/arivas/.dotfiles/source/50_node.sh",
+		"/Users/arivas/workspace/apps/face-web/cli-migration-strategy.md",
+		"/Users/arivas/workspace/apps/face-web/.jshintrc",
+		"/Users/arivas/workspace/apps/face-web/.travis.yml",
+		"/Users/arivas/workspace/dsc-dev-box/config-default.yml",
+		"/Users/arivas/workspace/apps/rails-site/main-site/Capfile",
+		"/Users/arivas/workspace/dsc-dev-box/chef/cookbooks-dsc/bootstrap-dsc-sites/attributes/default.rb",
+		"/Users/arivas/workspace/dsc-dev-box/config.yml",
+		"/Users/arivas/Workspace/apps/face-web/app/app.js",
+		"/Users/arivas/Workspace/dsc-dev-box/config.yml",
+		"/Users/arivas/Workspace/dsc-dev-box/Vagrantfile",
+		"/Users/arivas/.dotfiles/source/50_editor.sh",
+		"/Users/arivas/.dotfiles/caches/curlsubl/github.com/austinrivas/dotfiles/blob/master/README.md",
+		"/Users/arivas/Workspace/apps/face-web/app/mixins/redirects-ineligible-claimant-user.js",
+		"/Users/arivas/Workspace/apps/face-web/app/models/policy.js",
+		"/Users/arivas/Workspace/apps/face-web/app/models/box-item.js",
+		"/Users/arivas/Workspace/apps/face-web/app/routes/claim/file.js",
+		"/Users/arivas/Workspace/apps/face-web/app/models/product-claim.js",
+		"/Users/arivas/Workspace/apps/face-web/app/routes/claim/complete.js",
+		"/Users/arivas/Workspace/apps/face-web/app/controllers/claim/file.js",
+		"/Users/arivas/Workspace/apps/face-web/app/routes/claim/shipping.js",
+		"/Users/arivas/Workspace/apps/face-web/tests/unit/models/product-claim-test.js",
+		"/Users/arivas/Workspace/apps/face-web/app/templates/claim/form.hbs",
+		"/Users/arivas/Workspace/apps/face-web/app/templates/claim/file.hbs",
+		"/Users/arivas/Workspace/apps/face-web/app/models/claim.js",
+		"/Users/arivas/Workspace/apps/face-web/app/mixins/handles-route-errors.js",
+		"/Users/arivas/Workspace/apps/face-web/app/routes/checkout-index.js",
+		"/Users/arivas/Workspace/apps/face-web/app/routes/checkout-complete.js",
+		"/Users/arivas/Workspace/apps/face-web/app/routes/brand.js",
+		"/Users/arivas/Workspace/apps/face-web/app/routes/blades.js",
+		"/Users/arivas/Workspace/apps/face-web/app/templates/claim/index.hbs",
+		"/Users/arivas/Workspace/apps/face-web/app/routes/application.js",
+		"/Users/arivas/Workspace/apps/face-web/app/models/eligible-order-product.js",
+		"/Users/arivas/Workspace/apps/face-web/tests/unit/models/eligible-order-product-test.js",
+		"/Users/arivas/Workspace/apps/face-web/app/models/eligibile-order-product.js",
+		"/Users/arivas/Workspace/apps/face-web/app/routes/claim.js",
+		"/Users/arivas/Workspace/apps/face-web/app/serializers/policy.js",
+		"/Users/arivas/Workspace/apps/face-web/tests/unit/models/policy-test.js",
+		"/Users/arivas/Workspace/apps/face-web/app/router.js",
+		"/Users/arivas/Workspace/apps/face-web/app/serializers/claim.js",
+		"/Users/arivas/Workspace/apps/face-web/app/adapters/claim.js",
+		"/Users/arivas/Workspace/apps/face-web/app/mixins/redirects-non-claimable-user.js",
+		"/Users/arivas/Workspace/apps/face-web/app/models/user.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"model.name",
+			"model",
+			"model.name",
+			"1032",
+			"(),",
+			"_this",
+			"re",
+			"node",
+			"cookbook",
+			"omnibus",
+			"host",
+			"v",
+			"omnibus",
+			"apps",
+			"Route",
+			"route",
+			"');\n",
+			"Route",
+			"route",
+			"Route",
+			"route",
+			"Route",
+			"route",
+			"redirectNonClaimableUser",
+			"claimModel",
+			"user",
+			"ShowsClaimNotification",
+			"}}\";",
+			"SetsProductForBrand",
+			"SetsProductForBrandClaim",
+			"SetsProductForBrand",
+			"';\n",
+			"Boogie's",
+			"hasFiledHairanteeClaim",
+			"hasReceivedBoogiesProduct",
+			"hasReceivedProductForBrand",
+			"$scope.productInfo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.377152425005,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"mixinhanrout",
+				"app/mixins/handles-route-errors.js"
+			],
+			[
+				"mock_data/products/400.yml",
+				"rails-site/cms-sync-workers/db/mock_data/products/400.yml"
+			],
+			[
+				"brand_replace",
+				"rails-site/engine/lib/dsc/services/policies/policy_types/brand_member_replacement.rb"
+			],
+			[
+				"policy.rb",
+				"rails-site/engine/app/models/dsc/models/policy.rb"
+			],
+			[
+				"20150210053901",
+				"rails-site/main-site/db/migrate/20150210053901_data_add_hairantee_policy.dsc_engine.rb"
+			],
+			[
+				"addre",
+				"app/templates/address.hbs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true
+}
