@@ -3,6 +3,7 @@ PATH=~/.nave/installed/default/bin:"$(path_remove ~/.nave/installed/*/bin)"
 
 # Global npm modules to install.
 npm_globals=(
+  bower
   ember-cli
   grunt-cli
   grunt-init
