@@ -19,6 +19,7 @@ recipes=(
   the_silver_searcher
   tree
   typesafe-activator
+  watchman
 )
 
 brew_install_recipes
