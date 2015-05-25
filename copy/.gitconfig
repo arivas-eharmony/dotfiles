@@ -3,10 +3,10 @@
   email = austinrivas@gmail.com
 [alias]
   changeremotehost = !sh -c \"git remote -v | grep '$1.*fetch' | sed s/..fetch.// | sed s/$1/$2/ | xargs git remote set-url\"
-  setdscmail = "config user.email 'austin.rivas@dollarshaveclub.com'"
+  setpromail = "config user.email 'austin.rivas@dollarshaveclub.com'"
   setsolomail = "config user.email 'austinrivas@gmail.com'"
-  godsc = !sh -c \"git changeremotehost github.com github_dsc && git setdscmail\"
-  gosolo = !sh -c \"git changeremotehost github_dsc github.com && git setsolomail\"
+  gopro = !sh -c \"git changeremotehost github.com github_pro && git setpromail\"
+  gosolo = !sh -c \"git changeremotehost github_pro github.com && git setsolomail\"
 [core]
   autocrlf = input
   whitespace = fix,space-before-tab,tab-in-indent,trailing-space
