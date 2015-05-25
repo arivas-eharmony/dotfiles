@@ -13,6 +13,8 @@ recipes=(
   git
   git-extras
   nmap
+  mysql
+  postgresql
   sbt
   sl
   terminal-notifier
