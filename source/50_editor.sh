@@ -1,6 +1,6 @@
 # Editing
 
-export EDITOR='subl'
+export EDITOR='vim'
 export VISUAL="$EDITOR"
 alias q="$EDITOR"
 alias qs="q $DOTFILES"
