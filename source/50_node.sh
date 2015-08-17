@@ -7,10 +7,11 @@ npm_globals=(
   ember-cli
   grunt-cli
   grunt-init
-  linken bower
+  gulp
+  linken 
+  bower
   node-inspector
   phantomjs
-  svgo
   ungit
   yo
 )

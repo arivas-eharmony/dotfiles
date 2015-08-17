@@ -19,36 +19,10 @@ brew cask info this-is-somewhat-annoying 2>/dev/null
 # Homebrew casks
 casks=(
   # Applications
-  a-better-finder-rename
-  chromium
-  dropbox
-  firefox
-  google-chrome
-  gyazo
-  hipchat
-  intellij-idea-ce
-  istat-menus
   iterm2
   java7
-  ksdiff
-  omnidisksweeper
-  pgadmin3
-  robomongo
-  sequel-pro
-  sketch
-  slack
-  spotify
-  spectacle
-  steam
-  sublime-text
-  the-unarchiver
-  totalfinder
-  tower
   transmission-remote-gui
-  tunnelblick
-  virtualbox
   vlc
-  webstorm
   # Quick Look plugins
   betterzipql
   qlcolorcode
