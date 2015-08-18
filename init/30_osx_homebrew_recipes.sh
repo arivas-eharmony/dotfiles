@@ -6,8 +6,6 @@ is_osx || return 1
 
 # Homebrew recipes
 recipes=(
-  ack
-  ansible
   bash
   cmatrix
   git
@@ -20,8 +18,6 @@ recipes=(
   terminal-notifier
   the_silver_searcher
   tree
-  typesafe-activator
-  watchman
 )
 
 brew_install_recipes

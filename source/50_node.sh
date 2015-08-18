@@ -7,7 +7,7 @@ npm_globals=(
   ember-cli
   grunt-cli
   grunt-init
-  linken bower
+  linken
   node-inspector
   phantomjs
   svgo
@@ -62,29 +62,6 @@ function npm_publish() {
   else
     echo "Publishing new latest version $version"
     npm publish "$@"
-  fi
-}
-
-# Crazy-ass, cross-repo npm linking.
-
-# Inter-link all projects, where each project exists in a subdirectory of
-# the current parent directory. Uses https://github.com/cowboy/node-linken
-alias npm_linkall='eachdir "rm -rf node_modules; npm install"; linken */ --src .'
-alias npm_link='rm -rf node_modules; npm install; linken . --src ..'
-
-# Link this project's grunt stuff to the in-development grunt stuff.
-alias npm_link_grunt='linken . --src ~/gruntjs'
-
-# Print npm owners in subdirectories.
-alias npm_owner_list='eachdir "npm owner ls 2>/dev/null | sort"'
-
-# Add npm owners to projects in subdirectories.
-function npm_owner_add() {
-  local users=
-  local root="$(basename $(pwd))"
-  [[ $root == "gruntjs" ]] && users="cowboy tkellen"
-  if [[ -n "$users" ]]; then
-    eachdir "__npm_owner_add_each $users"
   fi
 }
 
