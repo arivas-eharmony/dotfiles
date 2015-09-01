@@ -63,3 +63,11 @@ Desktop.ini
 .swo
 .*.swp
 .*.swo
+
+# IDE Files
+.idea
+
+# Keys
+.pub
+.pem
+*_id_*
