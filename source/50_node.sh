@@ -8,8 +8,8 @@ npm_globals=(
   grunt-cli
   grunt-init
   gulp
-  linken 
-  bower
+  linken
+  madeye
   node-inspector
   phantomjs
   ungit
