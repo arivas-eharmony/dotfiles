@@ -14,6 +14,18 @@ alias c="tr -d '\n' | pbcopy"
 # Start ScreenSaver. This will lock the screen if locking is enabled.
 alias ss="open /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
 
+# Hide hidden OSX files
+function hideHidden() {
+  defaults write com.apple.finder AppleShowAllFiles NO
+  killall Finder /System/Library/CoreServices/Finder.app
+}
+
+# Show hidden OSX files
+function showHidden() {
+  defaults write com.apple.finder AppleShowAllFiles YES
+  killall Finder /System/Library/CoreServices/Finder.app
+}
+
 # Create a new Parallels VM from template, replacing the existing one.
 function vm_template() {
   local name="$@"
