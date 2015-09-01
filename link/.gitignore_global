@@ -68,6 +68,6 @@ Desktop.ini
 .idea
 
 # Keys
-.pub
-.pem
+*.pub
+*.pem
 *_id_*
