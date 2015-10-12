@@ -11,6 +11,7 @@ recipes=(
   git
   git-extras
   nmap
+  mongodb
   mysql
   postgresql
   sbt
