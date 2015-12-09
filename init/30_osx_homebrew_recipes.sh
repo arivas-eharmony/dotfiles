@@ -11,7 +11,7 @@ recipes=(
   git
   git-extras
   nmap
-  mongodb
+  "mongodb --with-openssl"
   mysql
   postgresql
   sbt

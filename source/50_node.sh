@@ -10,6 +10,7 @@ npm_globals=(
   grunt-init
   linken
   node-inspector
+  mup
   phantomjs
   svgo
   ungit

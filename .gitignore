@@ -10,6 +10,7 @@
 /link/.ssh/id_*
 /link/.ssh/*_id_*
 /link/.ssh/known_hosts
+/link/.ssh/*.pem
 
 # Don't commit rbenv temp files.
 /link/.rbenv/shims/
