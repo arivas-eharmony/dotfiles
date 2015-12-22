@@ -19,6 +19,7 @@ recipes=(
   terminal-notifier
   the_silver_searcher
   tree
+  sqitch_pg
 )
 
 brew_install_recipes
