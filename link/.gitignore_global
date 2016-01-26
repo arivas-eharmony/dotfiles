@@ -62,3 +62,6 @@ Desktop.ini
 .swo
 .*.swp
 .*.swo
+
+# IDE files
+.idea
