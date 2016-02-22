@@ -10,6 +10,7 @@ recipes=(
   cmatrix
   git
   git-extras
+  jq
   nmap
   mongodb
   mysql
