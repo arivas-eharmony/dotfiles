@@ -20,6 +20,9 @@ recipes=(
   the_silver_searcher
   tree
   sqitch_pg
+  virtualbox
+  docker
+  boot2docker
 )
 
 brew_install_recipes
