@@ -8,6 +8,9 @@ is_osx || return 1
 kegs=(
   caskroom/cask
   theory/sqitch
+  homebrew/dupes
+  homebrew/versions
+  homebrew/homebrew-php
 )
 brew_tap_kegs
 
@@ -23,7 +26,6 @@ casks=(
   vlc
   virtualbox
   java
-  homebrew-php
 )
 
 # Install Homebrew casks.

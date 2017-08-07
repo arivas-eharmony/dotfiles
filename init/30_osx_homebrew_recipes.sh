@@ -21,8 +21,9 @@ recipes=(
   tree
   sqitch_pg
   docker
+  docker-machine
   boot2docker
-  homebrew-php
+  php71
 )
 
 brew_install_recipes
