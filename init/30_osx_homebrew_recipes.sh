@@ -22,6 +22,7 @@ recipes=(
   sqitch_pg
   docker
   boot2docker
+  homebrew-php
 )
 
 brew_install_recipes

@@ -23,6 +23,7 @@ casks=(
   vlc
   virtualbox
   java
+  homebrew-php
 )
 
 # Install Homebrew casks.
