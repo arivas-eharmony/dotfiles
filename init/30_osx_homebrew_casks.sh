@@ -21,6 +21,7 @@ casks=(
   spectacle
   sublime-text
   vlc
+  virtualbox
 )
 
 # Install Homebrew casks.
