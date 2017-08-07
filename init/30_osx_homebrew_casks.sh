@@ -22,6 +22,7 @@ casks=(
   sublime-text
   vlc
   virtualbox
+  java
 )
 
 # Install Homebrew casks.
