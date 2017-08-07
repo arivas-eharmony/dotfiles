@@ -22,6 +22,7 @@ recipes=(
   sqitch_pg
   docker
   docker-machine
+  docker-compose
   boot2docker
   php71
 )
