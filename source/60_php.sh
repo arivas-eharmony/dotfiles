@@ -1,2 +1,4 @@
 # Global composer modules to install.
-composer global require "naderman/composer-aws:~0.2"
+function composer_global_install () {
+	composer global require "naderman/composer-aws:~0.2"
+}
