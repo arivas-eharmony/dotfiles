@@ -3,18 +3,6 @@ PATH=~/.nave/installed/default/bin:"$(path_remove ~/.nave/installed/*/bin)"
 
 # Global npm modules to install.
 npm_globals=(
-  bower
-  coffee-script
-  ember-cli
-  grunt-cli
-  grunt-init
-  linken
-  node-inspector
-  mup
-  phantomjs
-  svgo
-  ungit
-  yo
 )
 
 # Set a specific version of node as the "default" for "nave use default"
