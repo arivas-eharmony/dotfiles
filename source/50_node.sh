@@ -3,6 +3,7 @@ PATH=~/.nave/installed/default/bin:"$(path_remove ~/.nave/installed/*/bin)"
 
 # Global npm modules to install.
 npm_globals=(
+  gulp
 )
 
 # Set a specific version of node as the "default" for "nave use default"
