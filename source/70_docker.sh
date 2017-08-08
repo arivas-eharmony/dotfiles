@@ -15,5 +15,3 @@ function docker-start () {
 	docker-machine-start
 	docker-machine-eval
 }
-
-alias repos="cd ~/Repos && ls -af"
