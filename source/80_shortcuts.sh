@@ -10,6 +10,8 @@ alias openFinderHere="open -a Finder ./"
 
 alias repos="cd $REPO_PATH && ls -af"
 
+alias lwr="repos && cd lakewood-ranch && ls -af"
+
 alias lwrc="repos && cd lwr-commercial && ls -af"
 
 alias sonnys="repos && cd sonnys-bbq && ls -af"
