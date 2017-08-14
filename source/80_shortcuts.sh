@@ -15,3 +15,10 @@ alias lwr="repos && cd lakewood-ranch && ls -af"
 alias lwrc="repos && cd lwr-commercial && ls -af"
 
 alias sonnys="repos && cd sonnys-bbq && ls -af"
+
+# Push git deploy
+function push_git_deploy() {
+	git push $1 +HEAD:master
+	git fetch $1
+	git push origin --tags
+}
