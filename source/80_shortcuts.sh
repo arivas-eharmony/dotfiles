@@ -25,7 +25,7 @@ function push_git_deploy() {
 
 export LWR_HOST="push_dev@lwr-www1"
 export LWR_LOCAL_PATH=$REPO_PATH/lakewood-ranch/www/app/uploads/
-export LWR_REMOTE_PATH_PROD=$LWR_HOST:~/www.lakewoodranch.com/prod/www/app/uploads/
+export LWR_REMOTE_PATH_PROD="$LWR_HOST:~/www.lakewoodranch.com/prod/www/app/uploads/"
 
 # Rsync commands
 function lwr_sync_up_prod() {
