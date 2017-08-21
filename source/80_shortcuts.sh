@@ -1,4 +1,4 @@
-REPO_PATH="~/Repos"
+export REPO_PATH=~/Repos
 
 alias showHiddenFiles="defaults write com.apple.finder AppleShowAllFiles YES && killall Finder"
 
@@ -23,13 +23,14 @@ function push_git_deploy() {
 	git push origin --tags
 }
 
-LWR_LOCAL_PATH="$REPO_PATH/lakewood-ranch/www/app/uploads/"
-LWR_REMOTE_PATH_PROD="push_dev@lwr-www1:~/www.lakewoodranch.com/prod/www/app/uploads/"
+export LWR_HOST="push_dev@lwr-www1"
+export LWR_LOCAL_PATH=$REPO_PATH/lakewood-ranch/www/app/uploads/
+export LWR_REMOTE_PATH_PROD=$LWR_HOST:~/www.lakewoodranch.com/prod/www/app/uploads/
+
 # Rsync commands
 function lwr_sync_up_prod() {
 	rsync -av $LWR_LOCAL_PATH $LWR_REMOTE_PATH_PROD
 }
-
 function lwr_sync_down_prod() {
 	rsync -av $LWR_REMOTE_PATH_PROD $LWR_LOCAL_PATH
 }
