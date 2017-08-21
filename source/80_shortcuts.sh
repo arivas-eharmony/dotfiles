@@ -24,12 +24,12 @@ function push_git_deploy() {
 }
 
 LWR_LOCAL_PATH="$REPO_PATH/lakewood-ranch/www/app/uploads/"
-LWR_REMOTE_PATH_PROD="~/www.lakewoodranch.com/prod/www/app/uploads/"
+LWR_REMOTE_PATH_PROD="push_dev@lwr-www1:~/www.lakewoodranch.com/prod/www/app/uploads/"
 # Rsync commands
 function lwr_sync_up_prod() {
-	rsync -av push_dev@lwr-www1:$LWR_LOCAL_PATH $LWR_REMOTE_PATH_PROD
+	rsync -av $LWR_LOCAL_PATH $LWR_REMOTE_PATH_PROD
 }
 
 function lwr_sync_down_prod() {
-	rsync -av push_dev@lwr-www1:$LWR_REMOTE_PATH_PROD $LWR_LOCAL_PATH
+	rsync -av $LWR_REMOTE_PATH_PROD $LWR_LOCAL_PATH
 }
