@@ -23,8 +23,8 @@ function push_git_deploy() {
 	git push origin --tags
 }
 
-$LWR_LOCAL_PATH="$REPO_PATH/lakewood-ranch/www/app/uploads/"
-$LWR_REMOTE_PATH_PROD="~/www.lakewoodranch.com/prod/www/app/uploads/"
+LWR_LOCAL_PATH="$REPO_PATH/lakewood-ranch/www/app/uploads/"
+LWR_REMOTE_PATH_PROD="~/www.lakewoodranch.com/prod/www/app/uploads/"
 # Rsync commands
 function lwr_sync_up_prod() {
 	rsync -av push_dev@lwr-www1:$LWR_LOCAL_PATH $LWR_REMOTE_PATH_PROD
