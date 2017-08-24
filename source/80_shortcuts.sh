@@ -13,8 +13,15 @@ export LWR_REMOTE_UPLOADS_PATH_STAGE=$LWR_REMOTE_PATH_STAGE/$WP_UPLOADS_PATH
 export LWR_REMOTE_UPLOADS_PATH_PROD=$LWR_REMOTE_PATH_PROD/$WP_UPLOADS_PATH
 
 # Lakewood Ranch Commercial
+export LWRC_HOST="push_dev@lwr-www1"
 export LWRC_LOCAL_PATH=$REPO_PATH/lwr-commercial
+export LWRC_REMOTE_PATH="~/www.lwrcommercial.com"
+export LWRC_REMOTE_PATH_PROD=$LWRC_REMOTE_PATH/prod
+export LWRC_REMOTE_PATH_STAGE=$LWRC_REMOTE_PATH/stage
+export LWRC_REMOTE_PATH_TEST=$LWRC_REMOTE_PATH/test
 export LWRC_LOCAL_UPLOADS_PATH=$LWRC_LOCAL_PATH/$WP_UPLOADS_PATH
+export LWRC_REMOTE_UPLOADS_PATH_STAGE=$LWRC_REMOTE_PATH_STAGE/$WP_UPLOADS_PATH
+export LWRC_REMOTE_UPLOADS_PATH_PROD=$LWRC_REMOTE_PATH_PROD/$WP_UPLOADS_PATH
 
 # Sonny's BBQ
 export SONNYS_LOCAL_PATH=$REPO_PATH/sonnys-bbq
@@ -40,18 +47,4 @@ function push_git_deploy() {
 	git push $1 +HEAD:master
 	git fetch $1
 	git push origin --tags
-}
-
-# Rsync commands
-function lwr_sync_up_prod() {
-	rsync -av $LWR_LOCAL_UPLOADS_PATH $LWR_HOST:$LWR_REMOTE_PATH_PROD
-}
-function lwr_sync_down_prod() {
-	rsync -av $LWR_HOST:$LWR_REMOTE_PATH_PROD $LWR_LOCAL_UPLOADS_PATH
-}
-function lwr_sync_up_stage() {
-	rsync -av $LWR_LOCAL_UPLOADS_PATH $LWR_HOST:$LWR_REMOTE_PATH_STAGE
-}
-function lwr_sync_down_stage() {
-	rsync -av $LWR_HOST:$LWR_REMOTE_PATH_STAGE $LWR_LOCAL_UPLOADS_PATH
 }
