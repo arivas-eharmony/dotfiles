@@ -33,6 +33,9 @@ alias hideHiddenFiles="defaults write com.apple.finder AppleShowAllFiles NO && k
 
 alias openFinderHere="open -a Finder ./"
 
+# Corkcicle
+export CORKCICLE_LOCAL_PATH=$REPO_PATH/corkcicle
+
 # Repo Shortcuts
 
 alias repos="cd $REPO_PATH && ls -af"
@@ -42,6 +45,8 @@ alias lwr="cd $LWR_LOCAL_PATH && ls -af"
 alias lwrc="cd $LWRC_LOCAL_PATH && ls -af"
 
 alias sonnys="cd $SONNYS_LOCAL_PATH && ls -af"
+
+alias crk="cd $CORKCICLE_LOCAL_PATH && ls -af"
 
 # Push git deploy
 function push_git_deploy() {
