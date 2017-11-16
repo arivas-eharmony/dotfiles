@@ -60,3 +60,7 @@ function docker_remove_all_images() {
 function docker_remove_all_containers() {
 	docker rm $(docker ps -q)
 }
+
+function docker_push_image() {
+	docker login && docker build -t $1 $2 && docker push $1
+}
