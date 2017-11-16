@@ -50,3 +50,13 @@ function push_git_deploy() {
 	git fetch $1
 	git push origin --tags
 }
+
+# Docker shortcuts
+
+function docker_remove_all_images() {
+	docker rmi $(docker images -q)
+}
+
+function docker_remove_all_containers() {
+	docker rm $(docker ps -q)
+}
