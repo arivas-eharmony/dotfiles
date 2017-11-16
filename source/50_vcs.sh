@@ -30,6 +30,11 @@ alias gcd='git rev-parse 2>/dev/null && cd "./$(git rev-parse --show-cdup)"'
 # Current branch or SHA if detached.
 alias gbs='git branch | perl -ne '"'"'/^\* (?:\(detached from (.*)\)|(.*))/ && print "$1$2"'"'"''
 
+# shortcut for creating a tag on a commit
+function git_tag() {
+  git tag -a $1 -m $2
+}
+
 # open all changed files (that still actually exist) in the editor
 function ged() {
   local files=()
