@@ -64,3 +64,13 @@ function docker_remove_all_containers() {
 function docker_push_image() {
 	docker login && docker build -t $1 $2 && docker push $1
 }
+
+function docker_bash() {
+	docker-compose exec $1 /bin/bash
+}
+
+# Web Fonts
+
+function install_web_fonts() {
+	curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | sh
+}
