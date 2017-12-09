@@ -74,3 +74,9 @@ function docker_bash() {
 function install_web_fonts() {
 	curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | sh
 }
+
+# Http Server
+
+function simple_http_server() {
+	python -m SimpleHTTPServer
+}
